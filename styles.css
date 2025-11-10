@@ -57,22 +57,39 @@ a:visited{
 a:hover{
     text-decoration: underline;
 }
+.content p{
+    color:aquamarine
+}
+.content .homeText{
+    color: brown;
+    text-decoration: underline;
+}
 .content{
     width: 100%;
     padding-left:30px; 
     padding-bottom;
-   /* background-image:url(icon.png); IF you want a picture as a background
+ /*   background-image:url(electback.jpg); /*IF you want a picture as a background
    background-repeat:no-repeat;
-   background-size:cover; If you want it to cover the whole background
+   background-size:cover; /*If you want it to cover the whole background
    background-position: center;*/
 }
 .home-image{
     border-style: dotted;
     border-width: 2px;
-    border-radius: 1000px;
+    border-radius: 1px;
 }
 .list-home{
     list-style-type: lower-roman;
+}
+.project-table {
+    border-collapse: collapse;
+    margin: auto; /*center*/
+    margin-top: 20px;
+}
+.project-table td, .project-table th{
+    border: 1px dashed #47031a;
+    padding: 3px;
+    text-align: center;
 }
 
 footer{
