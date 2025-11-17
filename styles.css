@@ -68,10 +68,10 @@ a:hover{
     width: 100%;
     padding-left:30px; 
     padding-bottom;
- /*   background-image:url(electback.jpg); /*IF you want a picture as a background
+   background-image:url(electback.jpg); /*IF you want a picture as a background */
    background-repeat:no-repeat;
-   background-size:cover; /*If you want it to cover the whole background
-   background-position: center;*/
+   background-size:cover; /*If you want it to cover the whole background*/
+   background-position: center;
 }
 .home-image{
     border-style: dotted;
@@ -90,6 +90,34 @@ a:hover{
     border: 1px dashed #47031a;
     padding: 3px;
     text-align: center;
+}
+
+.content form{
+    width:fit-content;
+    margin:auto;
+    text-align:left;
+    padding: 2px;
+    background-color: #fad1e6;
+}
+.content legend{
+    text-align: center;
+}
+.content fieldset{
+    padding: 3px;
+}
+.content label{
+    display: inline-block;
+    vertical-align: top;
+    width: 75px;
+}
+.content input, .content textarea{
+    margin-bottom: 5px;
+    width: 250px;
+    padding: 6px;
+    border: 1px solid#bbb;
+    border-radius:4px;
+    font-size:14px;
+    box-sizing: border-box;
 }
 
 footer{
