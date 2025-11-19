@@ -64,11 +64,24 @@ a:hover{
     color: brown;
     text-decoration: underline;
 }
+.content .intro{
+    padding-bottom: 60px;
+    padding-top: 30px;
+    text-align: center;
+}
 .content{
     width: 100%;
-    padding-left:30px; 
-    padding-bottom;
+    padding-left:0px; 
+    padding-bottom: 10px;
 
+}
+/*.contentHome {
+    background-image:url(images/chip.jpg); /*IF you want a picture as a background */
+ /*   height: 100%;
+   background-repeat:no-repeat;
+   background-size:cover; /*If you want it to cover the whole background*/
+ /*  background-position: center;
+   
 }
 /*.home-image{
     border-style:hidden;
@@ -80,16 +93,18 @@ a:hover{
 }
 .project-table {
     border-collapse: collapse;
-    margin: auto; /*center*/
+     /*center*/
     margin-top: 20px;
+    text-align: left;
+
 }
 .project-table td, .project-table th{
     border: 1px dashed #47031a;
     padding: 3px;
-    text-align: center;
+    text-align: left;
 }
 .contentContact {
-    background-image:url(electback.jpg); /*IF you want a picture as a background */
+    background-image:url(images/electback.jpg); /*IF you want a picture as a background */
     height: 100%;
    background-repeat:no-repeat;
    background-size:cover; /*If you want it to cover the whole background*/
